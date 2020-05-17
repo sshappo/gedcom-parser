@@ -18,10 +18,12 @@ module.exports = (env, {mode}) => {
 
     return {
         devtool,
-        entry: './src/index.ts',
+        entry: {
+            index: './src/index.ts'
+        },
         output: {
             path: PATHS.dist,
-            filename: 'index.js',
+            filename: '[name].js',
         },
         module: {
             rules: [
@@ -34,6 +36,7 @@ module.exports = (env, {mode}) => {
                     ],
                     exclude: /node_modules/
                 },
+                { test: /\.ged$/, use: 'raw-loader' }
             ],
         },
         resolve: {
