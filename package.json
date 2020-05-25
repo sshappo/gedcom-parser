@@ -1,0 +1,30 @@
+{
+  "name": "gedcom-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "whach": "webpack --mode development --watch",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshappo/gedcom-parser.git"
+  },
+  "keywords": [],
+  "author": "Sergey Shappo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshappo/gedcom-parser/issues"
+  },
+  "homepage": "https://github.com/sshappo/gedcom-parser#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "path": "^0.12.7",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
