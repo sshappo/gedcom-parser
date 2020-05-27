@@ -8,6 +8,7 @@ const TAG_GED = {
     NOTE: 'NOTE',
     CONC: 'CONC',
     CONT: 'CONT',
+    CHIL: 'CHIL',
     ...PARENT_TAGS
 };
 
@@ -43,6 +44,13 @@ export class Person {
             case TAG_GED.CONT:
                 this.addDataCase(tag, TAG_GED.EDUC, value);
                 break;
+            case TAG_GED.CHIL:
+                    if (!this.info[TAG_GED.CHIL]) {
+                        this.info[TAG_GED.CHIL] = [];
+                    }
+                    this.info[TAG_GED.CHIL].push(value.join(' '));
+
+                 break;
             default:
                 this.setValue(tag, value.join(' '));
         }
