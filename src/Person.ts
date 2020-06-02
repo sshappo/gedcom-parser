@@ -9,6 +9,7 @@ const TAG_GED = {
     CONC: 'CONC',
     CONT: 'CONT',
     CHIL: 'CHIL',
+    FAMS: 'FAMS',
     ...PARENT_TAGS
 };
 
@@ -49,6 +50,13 @@ export class Person {
                         this.info[TAG_GED.CHIL] = [];
                     }
                     this.info[TAG_GED.CHIL].push(value.join(' '));
+
+                 break;
+            case TAG_GED.FAMS:
+                    if (!this.info[TAG_GED.FAMS]) {
+                        this.info[TAG_GED.FAMS] = [];
+                    }
+                    this.info[TAG_GED.FAMS].push(value.join(' '));
 
                  break;
             default:
