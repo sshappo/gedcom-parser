@@ -8,11 +8,25 @@ Advantage is in one loop processing a file what increase performance and extensi
 
 
 ##Default Usage:
+
+- ###ES6 modules
 ```
 // gedcom file - plain text format
 import gedcom from '001.ged';
 
 import {GedcomParser} from 'gedcom-parser';
+
+const gedcomParser = new GedcomParser(gedcom);
+
+// parsed data presented
+gedcomParser.data
+```
+
+- ###CommonJS
+```
+const gedcom = requare('001.ged');
+
+const {GedcomParser} = requare('gedcom-parser');
 
 const gedcomParser = new GedcomParser(gedcom);
 
