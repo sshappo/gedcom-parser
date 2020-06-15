@@ -1,6 +1,4 @@
-import {GedcomParser} from "./GedcomParser";
-import {BaseParser} from "./BaseParser";
-import {Person} from "./Person";
-import {Row} from "./Row";
-
-export {GedcomParser, BaseParser, Person, Row};
+export {GedcomParser} from "./GedcomParser";
+export {BaseParser} from "./BaseParser";
+export {Person} from "./Person";
+export {Row} from "./Row";
