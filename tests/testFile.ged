@@ -1,0 +1,382 @@
+﻿0 HEAD
+1 SOUR ALTREE
+2 NAME Agelong Tree
+2 VERS 4.7
+2 CORP Genery Software
+2 ADDR http://www.genery.com
+1 CHAR UTF-8
+1 DATE 15 JUN 2020
+1 GEDC 
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+0 @I1@ INDI
+1 _UID AXDCGHMjci
+1 NAME Лев Александрович /Пушкин/
+2 GIVN Лев Александрович
+1 SEX M
+1 OCCU Артиллерист
+1 BIRT
+2 DATE 1723
+1 FAMC @F1@
+1 DEAT
+2 DATE 1790
+1 FAMS @F3@
+0 @I2@ INDI
+1 _UID AXDCkKgIid
+1 NAME Александр Сергеевич /Пушкин/
+2 GIVN Александр Сергеевич
+1 SEX M
+1 OCCU Великий поэт
+1 BIRT
+2 DATE @#DJULIAN@ 26 MAY 1799
+1 FAMC @F2@
+1 DEAT
+2 DATE @#DJULIAN@ 29 JAN 1837
+2 CAUS Рана, полученная 27 января на дуэли с Ж. Дантесом
+2 NOTE Погребен на кладбище Святогорского моныстыря (Псковскaя губ
+3 CONC ерния)
+1 FAMS @F4@
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\self.jpg
+3 FORM jpg
+2 TITL Портрет Пушкина
+2 _PRIM Y
+1 NOTE Родоначальник новой русской литературы, основоположник русс
+2 CONC кого литературного языка.
+0 @I3@ INDI
+1 _UID AXDCmqaqW5
+1 NAME Сергей Львович /Пушкин/
+2 GIVN Сергей Львович
+1 SEX M
+1 OCCU Статский советник
+1 BIRT
+2 DATE 1770
+1 FAMC @F3@
+1 DEAT
+2 DATE 1848
+1 FAMS @F2@
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\father.jpg
+3 FORM jpg
+2 TITL Отец Пушкина
+2 _PRIM Y
+1 NOTE С детства был записан в армию. С 1817г. в отставке. В совер
+2 CONC шенстве владел французским языком, писал "салонные" стихи и
+2 CONC  каламбуры.
+0 @I4@ INDI
+1 _UID AXDCnO9l30
+1 NAME Григорий Александрович /Пушкин/
+2 GIVN Григорий Александрович
+1 SEX M
+1 OCCU Военный
+1 BIRT
+2 DATE @#DJULIAN@ 14 MAY 1835
+1 FAMC @F4@
+1 DEAT
+2 DATE @#DJULIAN@ 5 AUG 1905
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\grigorii.jpg
+3 FORM jpg
+2 TITL Портрет Григория Александровича Пушкина
+2 _PRIM Y
+0 @I5@ INDI
+1 _UID AXDCPBBm1v
+1 NAME Александр  /Пушкин/
+2 GIVN Александр 
+1 SEX M
+1 OCCU Богатый помещик
+1 BIRT
+2 DATE 1686
+1 DEAT
+2 DATE 1725
+1 FAMS @F1@
+0 @I6@ INDI
+1 _UID AXDCQ0fAlu
+1 NAME Александр Александрович /Пушкин/
+2 GIVN Александр Александрович
+1 SEX M
+1 OCCU Военный
+1 BIRT
+2 DATE @#DJULIAN@ 6 JUL 1833
+1 FAMC @F4@
+1 DEAT
+2 DATE @#DJULIAN@ 19 JUL 1914
+2 NOTE Похоронен в Лопасне
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\alexander.jpg
+3 FORM jpg
+2 TITL Портрет Александра Александровича Пушкина
+2 _PRIM Y
+0 @I7@ INDI
+1 _UID AXDCRkhSqt
+1 NAME Лев Сергеевич /Пушкин/
+2 GIVN Лев Сергеевич
+1 SEX M
+1 BIRT
+2 DATE 1805
+1 FAMC @F2@
+1 DEAT
+2 DATE 1852
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\brother.jpg
+3 FORM jpg
+2 TITL Портрет Льва Сергеевича Пушкина
+2 _PRIM Y
+0 @I8@ INDI
+1 _UID AXDCRyEiqg
+1 NAME Алексей  /Пушкин/
+2 GIVN Алексей 
+1 SEX M
+1 OCCU Помещик
+1 BIRT
+2 DATE 1717
+1 DEAT
+2 DATE 1777
+1 FAMS @F5@
+1 NOTE Помещик Переяславского, Ярославского, Воронежского и Лебедя
+2 CONC нского уездов.
+0 @I9@ INDI
+1 _UID AXDCS0GNzm
+1 NAME Ольга Сергеевна /Пушкина-Павлищева (Пушкина)/
+2 GIVN Ольга Сергеевна
+2 SURN Пушкина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 20 DEC 1797
+1 FAMC @F2@
+1 DEAT
+2 DATE @#DJULIAN@ 2 MAY 1868
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\sister.jpg
+3 FORM jpg
+2 TITL Портрет Ольги Сергеевны Пушкиной-Павлищевой
+2 _PRIM Y
+0 @I10@ INDI
+1 _UID AXDCSKnZyC
+1 NAME Мария Алексеевна /Пушкина/
+2 GIVN Мария Алексеевна
+1 SEX F
+1 BIRT
+2 DATE 1745
+1 FAMC @F5@
+1 DEAT
+2 DATE 1818
+1 FAMS @F6@
+0 @I11@ INDI
+1 _UID AXDCSQptlN
+1 NAME Наталья Александровна /Пушкина-Дубельт (Пушкина)/
+2 GIVN Наталья Александровна
+2 SURN Пушкина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 23 MAY 1836
+1 FAMC @F4@
+1 DEAT
+2 DATE @#DJULIAN@ 10 MAR 1913
+2 NOTE Похоронена в Висбадене (Германия)
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\natalia.jpg
+3 FORM jpg
+2 TITL Портрет Натальи Александровны Пушкиной
+2 _PRIM Y
+0 @I12@ INDI
+1 _UID AXDCSw3t9Z
+1 NAME Мария Александровна /Гартунг (Пушкина)/
+2 GIVN Мария Александровна
+2 SURN Пушкина
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 19 MAY 1832
+1 FAMC @F4@
+1 DEAT
+2 DATE 7 MAR 1919
+2 NOTE Похоронена в Донском монастыре
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\maria.jpg
+3 FORM jpg
+2 TITL Портрет Марии Александровны Пушкиной
+2 _PRIM Y
+0 @I13@ INDI
+1 _UID AXDCSwDgMf
+1 NAME Надежда Осиповна  /Пушкина (Ганнибал)/
+2 GIVN Надежда Осиповна 
+2 SURN Ганнибал
+1 SEX F
+1 BIRT
+2 DATE 1775
+1 FAMC @F6@
+1 DEAT
+2 DATE @#DJULIAN@ 29 MAR 1836
+1 FAMS @F2@
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\mother.jpg
+3 FORM jpg
+2 TITL Мать Пушкина
+2 _PRIM Y
+0 @I14@ INDI
+1 _UID AXDCSXOmxP
+1 NAME Осип Абрамович /Ганнибал/
+2 GIVN Осип Абрамович
+1 SEX M
+1 OCCU Капитан 2-го ранга морск. артилл.
+1 BIRT
+2 DATE 1744
+1 FAMC @F7@
+1 DEAT
+2 DATE 1806
+2 NOTE Погребен в Святогорском монастыре
+1 FAMS @F6@
+1 NOTE Владел с. Михайловским.
+0 @I15@ INDI
+1 _UID AXDCU3L2jh
+1 NAME Василий  /Чичерин/
+2 GIVN Василий 
+1 SEX M
+1 BIRT
+2 DATE 1700
+1 DEAT
+2 DATE 1743
+1 FAMS @F8@
+0 @I16@ INDI
+1 _UID AXDCU6w42I
+1 NAME Ольга Васильевна /Чичерина/
+2 GIVN Ольга Васильевна
+1 SEX F
+1 BIRT
+2 DATE 1737
+1 FAMC @F8@
+1 DEAT
+2 DATE 1802
+1 FAMS @F3@
+0 @I17@ INDI
+1 _UID AXDCUjYBVh
+1 NAME Христина  /Шеберг/
+2 GIVN Христина 
+1 SEX F
+1 BIRT
+2 DATE 1717
+1 DEAT
+2 DATE 1781
+1 FAMS @F7@
+0 @I18@ INDI
+1 _UID AXDCuOztTh
+1 NAME Абрам  /Ганнибал/
+2 GIVN Абрам 
+1 SEX M
+1 OCCU Военный инженер
+1 BIRT
+2 DATE 1696
+1 DEAT
+2 DATE 1781
+1 FAMS @F7@
+1 NOTE "Арап Петра Великого", африканец.
+0 @I19@ INDI
+1 _UID AXDCURLnQV
+1 NAME Евдокия  /Головина/
+2 GIVN Евдокия 
+1 SEX F
+1 BIRT
+2 DATE 1703
+1 DEAT
+2 DATE 1725
+1 FAMS @F1@
+0 @I20@ INDI
+1 _UID AXDCv81Xhy
+1 NAME Сарра  /Пушкина (Ржевская)/
+2 GIVN Сарра 
+2 SURN Ржевская
+1 SEX F
+1 BIRT
+2 DATE 1721
+1 DEAT
+2 DATE 1790
+1 FAMS @F5@
+1 NOTE дочь Юрия Ржевского, нижегородского воеводы.
+0 @I21@ INDI
+1 _UID AXDCv9iNzp
+1 NAME Николай  /Гончаров/
+2 GIVN Николай 
+1 SEX M
+1 BIRT
+1 DEAT
+1 FAMS @F9@
+0 @I22@ INDI
+1 _UID AXDCvvWq5r
+1 NAME Наталья Николаевна /Пушкина (Гончарова)/
+2 GIVN Наталья Николаевна
+2 SURN Гончарова
+1 SEX F
+1 BIRT
+2 DATE @#DJULIAN@ 27 AUG 1812
+1 FAMC @F9@
+1 DEAT
+2 DATE @#DJULIAN@ 26 NOV 1863
+1 FAMS @F4@
+1 OBJE
+2 FILE C:\Program Files (x86)\Genery Software\Drevo 4\sample\pushkin.files\wife.jpg
+3 FORM jpg
+2 TITL Портрет Натальи Гончаровой
+2 _PRIM Y
+0 @I23@ INDI
+1 _UID AXDCvyMtTV
+1 NAME Лукерья  /Приклонская/
+2 GIVN Лукерья 
+1 SEX F
+1 BIRT
+2 DATE 1705
+1 DEAT
+2 DATE 1765
+1 FAMS @F8@
+0 @F1@ FAM
+1 HUSB @I5@
+1 WIFE @I19@
+1 CHIL @I1@
+1 MARR
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I13@
+1 CHIL @I2@
+1 CHIL @I7@
+1 CHIL @I9@
+1 MARR
+2 DATE 1796
+0 @F3@ FAM
+1 HUSB @I1@
+1 WIFE @I16@
+1 CHIL @I3@
+1 MARR
+0 @F4@ FAM
+1 HUSB @I2@
+1 WIFE @I22@
+1 CHIL @I4@
+1 CHIL @I6@
+1 CHIL @I11@
+1 CHIL @I12@
+1 MARR
+2 DATE @#DJULIAN@ 18 FEB 1831
+0 @F5@ FAM
+1 HUSB @I8@
+1 WIFE @I20@
+1 CHIL @I10@
+1 MARR
+2 DATE 1742
+0 @F6@ FAM
+1 HUSB @I14@
+1 WIFE @I10@
+1 CHIL @I13@
+1 MARR
+0 @F7@ FAM
+1 HUSB @I18@
+1 WIFE @I17@
+1 CHIL @I14@
+1 MARR
+2 DATE 1736
+0 @F8@ FAM
+1 HUSB @I15@
+1 WIFE @I23@
+1 CHIL @I16@
+1 MARR
+0 @F9@ FAM
+1 HUSB @I21@
+1 CHIL @I22@
+0 TRLR
