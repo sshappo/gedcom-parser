@@ -19,11 +19,16 @@ module.exports = (env, {mode}) => {
     return {
         devtool,
         entry: {
-            index: './src/index.ts'
+            index: './src/index.ts',
+            BaseParser: './src/BaseParser.ts',
+            GedcomParser: './src/GedcomParser.ts',
+            Person: './src/Person.ts',
+            Row: './src/Row.ts'
         },
         output: {
             path: PATHS.dist,
             filename: '[name].js',
+            libraryExport: 'cjs'
         },
         module: {
             rules: [
@@ -38,6 +43,18 @@ module.exports = (env, {mode}) => {
                 },
                 { test: /\.ged$/, use: 'raw-loader' }
             ],
+        },
+        optimization: {
+            splitChunks: {
+                cacheGroups: {
+                    node_vendors: {
+                        test: /node_modules/,
+                        name: 'node_vendors',
+                        chunks: 'all',
+                        enforce: true
+                    }
+                }
+            }
         },
         resolve: {
             extensions: [ '.ts' ],
