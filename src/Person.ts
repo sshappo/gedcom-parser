@@ -35,6 +35,8 @@ export class Person {
                 break;
             case TAG_GED.PLAC:
                 this.addDataCase(tag, TAG_GED.EDUC, value);
+                this.addDataCase(tag, TAG_GED.BIRT, value);
+                this.addDataCase(tag, TAG_GED.DEAT, value);
                 break;
             case TAG_GED.NOTE:
                 this.addDataCase(tag, TAG_GED.EDUC, value);
