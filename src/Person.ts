@@ -1,5 +1,6 @@
 const PARENT_TAGS: any = {
     BIRT: 'BIRT',
+    DEAT: 'DEAT',
     EDUC: 'EDUC',
 };
 const TAG_GED = {
@@ -32,6 +33,7 @@ export class Person {
             case TAG_GED.DATE:
                 this.addDataCase(tag, TAG_GED.BIRT, value);
                 this.addDataCase(tag, TAG_GED.EDUC, value);
+                this.addDataCase(tag, TAG_GED.DEAT, value);
                 break;
             case TAG_GED.PLAC:
                 this.addDataCase(tag, TAG_GED.EDUC, value);
